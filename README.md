@@ -26,3 +26,5 @@ npm install
 ```
 npm start
 ```
+
+Un grand merci a Anna sur le discord Dev Girld Society qui m'a aidé :)
