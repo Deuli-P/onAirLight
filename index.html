@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>On Air Light</title>
+  </head>
+  <body>
+    <h1 class="title_app">On Air Light!</h1>
+    <section class="global-content_container">
+        <div class="content_container">
+            <span class="title_element">Micro Reconnu</span>
+            <div class="box clear" id="micro"></div>
+        </div>
+        <div class="content_container">
+            <span class="title_element">Connecté</span>
+            <div class="box clear" id="connected"></div>
+        </div>
+        <div class="content_container">
+            <span class="title_element">Entrée activée</span>
+            <div class="box clear" id="voice-connected"></div>
+        </div>
+    </section>
+
+    <section >
+        <h2>Explication</h2>
+        <div>
+            <p><span>Micro:</span> Devices authorization status</p>
+            <p><span>Entrée activé:</span> Microphone "hearing" status</p>
+            <p><span>Connecté:</span> connect to voice channel on Discord</p>
+        </div>
+        <div>
+            <div class="explication_box_container">
+                <div class="little_box clear"></div><p>Element not recognized</p>
+            </div>
+            <div class="explication_box_container">
+                <div class="little_box true"></div><p>Element valid</p>
+            </div>
+            <div class="explication_box_container">
+                <div class="little_box false"></div><p>Element not valid</p>
+            </div>
+        </div>
+    </section>
+  </body>
+  <script src="./index.js" type="module"></script>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Microphone Detection</title>
+  <style>
+    .clear.true { color: green; }
+    .clear.false { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Microphone Detection</h1>
+  <p id="micro">Microphone not checked yet</p>
+  <p id="voice-connected">Voice not checked yet</p>
+  <script src="renderer.js"></script>
+</body>
+</html>

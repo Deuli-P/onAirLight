@@ -1,0 +1,51 @@
+Charge utile analysee:  {
+  t: 'VOICE_STATE_UPDATE',
+  s: 10,
+  op: 0,
+  d: {
+    member: {
+      user: [Object],
+      roles: [Array],
+      premium_since: null,
+      pending: false,
+      nick: '­ƒøÅ­ƒøÅ',
+      mute: false,
+      joined_at: '2018-02-02T21:19:24.851000+00:00',
+      flags: 0,
+      deaf: false,
+      communication_disabled_until: null,
+      avatar: null
+    },
+    user_id: '226340081277992961',
+    suppress: false,
+    session_id: 'b96b72cfadcba4412fb0c836bbe98b59',
+    self_video: false,
+    self_mute: false,
+    self_deaf: false,
+    request_to_speak_timestamp: null,
+    mute: false,
+    guild_id: '190504139036426240',
+    deaf: false,
+    channel_id: '190504139036426241'
+  }
+}
+Message recu
+Charge utile analysee:  {
+  t: 'PRESENCE_UPDATE',
+  s: 11,
+  op: 0,
+  d: {
+    user: {
+      username: 'enderoth_al_vor',
+      id: '141231003879342081',
+      global_name: 'Enderoth Al-vor',
+      discriminator: '0',
+      clan: null,
+      avatar_decoration_data: null,
+      avatar: '6cc37c9a87898acbb0a166b7b306b8c5'
+    },
+    status: 'offline',
+    client_status: {},
+    activities: []
+  }
+}

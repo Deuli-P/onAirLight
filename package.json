@@ -1,0 +1,20 @@
+{
+  "name": "on-air-light",
+  "version": "1.0.0",
+  "description": "application windows 10 to turn on light by USB when microphone is on and connect to discord voice channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre Antoniutti",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-hid": "^3.0.0",
+    "ws": "^8.17.0"
+  }
+}
