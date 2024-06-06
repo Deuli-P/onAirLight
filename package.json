@@ -13,8 +13,13 @@
     "electron": "^30.0.9"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
     "dotenv": "^16.4.5",
+    "mic": "^2.1.2",
     "node-hid": "^3.0.0",
+    "node-microphone": "^0.1.6",
+    "path": "^0.12.7",
+    "speaker": "^0.5.5",
     "ws": "^8.17.0"
   }
 }
